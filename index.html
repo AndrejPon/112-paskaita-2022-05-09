@@ -5,29 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css" integrity="sha512-I8lSB676wT2jGSNnvIhbYGqHMiZOc0+cl18soJSWPvJCkGm8xnTcXZafn2xTf1woMXz1AY3Z1Vd/qAPvjXB4Kw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <section class="FirstSection">
     <nav class="NavBar">
-        <img src="./Logo.png" alt="logo">
+        <img src="./images/logo.png" alt="logo">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#home">Info</a></li>
-            <li><a href="#home">Contact</a></li>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         <div>
-            <button class="SignUp">Sign Up</button>
-            <button class="LogIn">Log in</button>
+            <button class="SignUp" type="button">Sign Up</button>
+            <button class="LogIn" type="button">Log in</button>
         </div>
     </nav>
     <header>
+        <div class="TextSection">
         <div class="Welcome">
-        <h1>You're Welcome</h1>
+        <h2>You're Welcome</h2>
         </div>
         <div class="Text">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam integer iaculis sollicitudin turpis proin maecenas. Quis potenti dignissim cras volutpat quis faucibus id hac. Turpis pellentesque bibendum nibh faucibus pretium nec. Nulla natoque montes, suspendisse suspendisse.</p>
         </div>
         <button class="TryFree">Try Free</button>
-    </header>
+        <div class="Icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+    </div>
+        <div class="Programs">
+            <img src="./images/Frame 27.svg" alt="Programs">
+        </div>
+         </header>
+       <div class="Payments">
+            <img class="PaymentsImg" src="./images/Frame 2.svg" alt="Payments">
+        </div>
+</section>
 </body>
 </html>
