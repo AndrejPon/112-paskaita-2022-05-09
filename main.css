@@ -1,3 +1,7 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
 .FirstSection{
     background: linear-gradient(
         to right,
@@ -58,14 +62,17 @@ img{
 .SignUp{
     background: none;
     border: none;
+    cursor: pointer;
     font-size: 17.3201px;
     font-weight: 600;
     line-height: 26px;
+    margin-right: 1rem;
 }
 .LogIn{
     background: #7579FF;
     border-radius: 15px;
     color: white;
+    cursor: pointer;
     font-size: 17.3201px;
     font-weight: 600;
     line-height: 26px;
@@ -109,10 +116,11 @@ h2{
     font-size: 24px;
     font-weight: 600;
     line-height: 36px;
+    margin-top: 2rem;
     padding: 16px 50px;
     
 }
-.Programs>img {
+.Programs img {
     height: 437px;
     margin-left: 100px;
     width: 658px;
@@ -130,4 +138,46 @@ h2{
     column-gap: 15px;
     display: flex;
     margin-top: 20%;  
+}
+i{
+    color: #5F6073;
+    cursor: pointer;
+}
+.SecondSection{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90rem;
+}
+
+.BuyImg{
+    height: 582px;
+    width: 885px;
+}
+h3{
+    color: #7579FF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    padding-right: 1rem;
+    text-align: right;
+}
+.Wave{
+    display: block;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-top: 1rem;
+    width: 261px;
+    
+}
+.SecondSectionText{
+    color: #5F6073;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-right: 1rem;
+    text-align: right;
 }
