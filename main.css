@@ -196,3 +196,23 @@ h3{
     padding-left: 1rem;
     text-align: left;
 }
+footer{
+    background: #1B1C37;
+    flex-wrap: nowrap;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 90rem;
+    height: 8rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.FooterIcons i{
+    color: white;
+    padding-right: 1rem;
+}
+.FooterIcons, .FooterText{
+    padding: 0 6rem;
+}
